@@ -180,13 +180,6 @@ packages:
       relative: true
     source: path
     version: "1.1.0"
-  flutter_document_scanner_ios:
-    dependency: transitive
-    description:
-      path: "lib/packege/flutter_document_scanner_ios"
-      relative: true
-    source: path
-    version: "1.0.0"
   flutter_document_scanner_platform_interface:
     dependency: transitive
     description:

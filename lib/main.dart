@@ -1,4 +1,3 @@
-import 'package:document_scanner/pages/basic_page.dart';
 import 'package:document_scanner/pages/custom_page.dart';
 import 'package:document_scanner/pages/from_gallery_page.dart';
 import 'package:flutter/material.dart';
@@ -41,17 +40,17 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // * Basic example page
-            ElevatedButton(
-              onPressed: () => Navigator.push<void>(
-                context,
-                MaterialPageRoute(
-                  builder: (BuildContext context) => const BasicPage(),
-                ),
-              ),
-              child: const Text(
-                'Basic example',
-              ),
-            ),
+            // ElevatedButton(
+            //   onPressed: () => Navigator.push<void>(
+            //     context,
+            //     MaterialPageRoute(
+            //       builder: (BuildContext context) => const BasicPage(),
+            //     ),
+            //   ),
+            //   child: const Text(
+            //     'Basic example',
+            //   ),
+            // ),
 
             // * Custom example page
             ElevatedButton(
@@ -62,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               child: const Text(
-                'Custom example',
+                'From camera example',
               ),
             ),
 
