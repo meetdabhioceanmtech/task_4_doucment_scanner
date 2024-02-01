@@ -62,7 +62,7 @@ class BottomBarEditPhoto extends StatelessWidget {
                   foregroundColor: Colors.white,
                 ),
                 child: const Text(
-                  'GRAY',
+                  'Gray',
                 ),
               ),
             ),

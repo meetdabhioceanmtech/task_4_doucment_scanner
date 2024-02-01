@@ -32,7 +32,7 @@ class AppBarCropPhoto extends StatelessWidget {
       right: 0,
       child: Padding(
         padding: EdgeInsets.only(
-          top: MediaQuery.of(context).padding.top + 5,
+          top: MediaQuery.of(context).padding.top + 15,
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
