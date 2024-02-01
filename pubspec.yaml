@@ -35,14 +35,24 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   image_gallery_saver: ^2.0.3
+  image_picker: ^1.0.7
+  flutter_document_scanner:
+    path: lib/packege/flutter_document_scanner
+
   # flutter_document_scanner: ^1.1.0
   # ce8bb77df8512d405bdea517d3da07a5f715847f
-  flutter_document_scanner:
-    git:
-      url: https://github.com/meetdabhioceanmtech/flutter_document_scanner.git
-      ref: main_code
-      path: flutter_document_scanner
-  image_picker: ^1.0.7
+  # flutter_document_scanner:
+  #   git:
+  #     url: https://github.com/meetdabhioceanmtech/flutter_document_scanner/tree/master/flutter_document_scanner
+  #     ref: f0bc5d023251ba863c061cbd3fda2e18daa8c3c7
+  #     # path: https://github.com/meetdabhioceanmtech/flutter_document_scanner/tree/master/flutter_document_scanner
+  # flutter_document_scanner:
+  #   git:
+  #     url: https://github.com/meetdabhioceanmtech/flutter_document_scanner/tree/master/flutter_document_scanner
+  #     ref: b609b9b
+  # path: flutter_document_scanner/flutter_document_scanner/pubspec.yaml
+  # ref: b609b9b
+  # path: https://github.com/meetdabhioceanmtech/flutter_document_scanner/tree/master/flutter_document_scanner
 
 dev_dependencies:
   flutter_test:
