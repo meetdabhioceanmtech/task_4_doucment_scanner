@@ -38,44 +38,47 @@ class BottomBarEditPhoto extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             // * Natural
-            TextButton(
-              onPressed: () =>
-                  context.read<DocumentScannerController>().applyFilter(
-                        FilterType.natural,
-                      ),
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.white,
-              ),
-              child: const Text(
-                'Natural',
+            Expanded(
+              child: TextButton(
+                onPressed: () => context.read<DocumentScannerController>().applyFilter(
+                      FilterType.natural,
+                    ),
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.white,
+                ),
+                child: const Text(
+                  'Natural',
+                ),
               ),
             ),
 
             // * Gray
-            TextButton(
-              onPressed: () =>
-                  context.read<DocumentScannerController>().applyFilter(
-                        FilterType.gray,
-                      ),
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.white,
-              ),
-              child: const Text(
-                'GRAY',
+            Expanded(
+              child: TextButton(
+                onPressed: () => context.read<DocumentScannerController>().applyFilter(
+                      FilterType.gray,
+                    ),
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.white,
+                ),
+                child: const Text(
+                  'GRAY',
+                ),
               ),
             ),
 
             // * ECO
-            TextButton(
-              onPressed: () =>
-                  context.read<DocumentScannerController>().applyFilter(
-                        FilterType.eco,
-                      ),
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.white,
-              ),
-              child: const Text(
-                'ECO',
+            Expanded(
+              child: TextButton(
+                onPressed: () => context.read<DocumentScannerController>().applyFilter(
+                      FilterType.eco,
+                    ),
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.white,
+                ),
+                child: const Text(
+                  'ECO',
+                ),
               ),
             ),
           ],

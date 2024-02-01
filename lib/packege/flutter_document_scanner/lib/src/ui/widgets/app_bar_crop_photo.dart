@@ -32,16 +32,15 @@ class AppBarCropPhoto extends StatelessWidget {
       right: 0,
       child: Padding(
         padding: EdgeInsets.only(
-          top: MediaQuery.of(context).padding.top + 15,
+          top: MediaQuery.of(context).padding.top + 5,
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             IconButton(
-              onPressed: () =>
-                  context.read<DocumentScannerController>().changePage(
-                        AppPages.takePhoto,
-                      ),
+              onPressed: () => context.read<DocumentScannerController>().changePage(
+                    AppPages.takePhoto,
+                  ),
               icon: const Icon(
                 Icons.close,
               ),
@@ -50,8 +49,7 @@ class AppBarCropPhoto extends StatelessWidget {
 
             // * Crop photo
             TextButton(
-              onPressed: () =>
-                  context.read<DocumentScannerController>().cropPhoto(),
+              onPressed: () => context.read<DocumentScannerController>().cropPhoto(),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
               ),
