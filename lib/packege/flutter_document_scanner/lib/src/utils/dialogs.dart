@@ -18,11 +18,13 @@ class Dialogs {
       context: context,
       barrierDismissible: false,
       builder: (context) {
-        return AlertDialog(
-          title: Text(
-            message,
-          ),
-        );
+        return 1 == 1
+            ? const Center(child: CircularProgressIndicator())
+            : AlertDialog(
+                title: Text(
+                  message,
+                ),
+              );
       },
     );
   }
